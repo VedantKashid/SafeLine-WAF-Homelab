@@ -1,0 +1,13 @@
+# Sensitive data
+*.key
+*.crt
+*.pem
+config.inc.php
+
+# Logs
+*.log
+
+# VM files
+*.vmdk
+*.vmx
+*.nvram
