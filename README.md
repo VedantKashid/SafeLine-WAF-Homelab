@@ -400,29 +400,29 @@ Access denied by WAF policy
 - **Overhead:** ~38% (acceptable for security benefit)
 - **False Positives:** 0 (during testing period)
 
-## 📊 Visual Evidence
+## 📊 Visual Data
 
 Below are the screenshots from the live lab environment demonstrating the WAF's detection and mitigation capabilities.
 
 ### 1. WAF Statistics Dashboard
 The primary dashboard showing the total number of blocked requests and traffic distribution.
-![WAF Statistics](images/WAF%20STATISTIC.PNG)
+![WAF Statistics](Visual%20Data/WAF%20STATISTIC.PNG)
 
 ### 2. SQL Injection Mitigation
 Evidence of the WAF intercepting a malicious SQL payload (`' OR 1=1 --`) and returning a 403 Forbidden status.
-![SQL Injection Blocked](images/SQL%20INJECTION%20BLOCKED.PNG)
+![SQL Injection Blocked](Visual%20Data/SQL%20INJECTION%20BLOCKED.PNG)
 
 ### 3. Detailed Attack Logs
 The SafeLine console displaying specific details about the blocked attacks, including the source IP (Kali Linux) and the matched signature.
-![Attack Logs](images/ATTACK%20LOGS.PNG)
+![Attack Logs](Visual%20Data/ATTACK%20LOGS.PNG)
 
 ### 4. HTTP Flood / Rate Limiting
 Visual proof of the rate-limiting engine blocking an automated flood of requests (429 Too Many Requests).
-![HTTP Flood Blocked](images/HTTP%20FLOOD.PNG)
+![HTTP Flood Blocked](Visual%20Data/HTTP%20FLOOD.PNG)
 
 ### 5. DVWA Protected Interface
 The Damn Vulnerable Web Application running successfully behind the SafeLine Reverse Proxy.
-![DVWA Home Page](images/DVWA%20HOME%20PAGE.PNG)
+![DVWA Home Page](Visual%20Data/DVWA%20HOME%20PAGE.PNG)
 
 ## 💡 Key Learnings
 
